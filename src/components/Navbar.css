@@ -7,6 +7,12 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color: #0f172a;
+
+    /* background: rgba( 0, 0, 0, 0.3 );
+
+backdrop-filter: blur( 0px );
+-webkit-backdrop-filter: blur( 0px ); */
+
     position: sticky;
     top: 0;
 }

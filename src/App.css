@@ -1,6 +1,13 @@
 /* App.css */
-.App{
-  background-color: #fefefe;
+.App {
+  /* Remove or make transparent background */
+  background-color: transparent;
   height: 100%;
   width: 100%;
+}
+
+/* styles.css or App.css */
+body.dark-mode {
+  background-color: #111;
+  color: #fff;
 }

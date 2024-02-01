@@ -1,0 +1,52 @@
+/* Home.css */
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .full-viewport {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .left-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .title-section {
+    text-align: center;
+    margin-top: 25vh;
+  }
+  
+  .large-title {
+    font-size: 2.5em;
+  }
+  
+  .logo-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .logo {
+    width: 50px; /* Adjust the size as needed */
+    height: 50px; /* Fixed height to make the logo square */
+    margin: 0 10px;
+  }
+  
+  .right-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .large-photo {
+    width: 650px; /* Width for the large photo */
+    border-radius: 50%;
+  }
+  

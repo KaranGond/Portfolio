@@ -6,13 +6,17 @@ import  GitHub  from "./components/GitHub";
 import  LinkedIn  from './components/LinkedIn';
 import  Resume  from './components/Resume';
 import Projects  from './components/Projects';
+import Home from './components/Home';
 
 
 const App = () => {
+  
+  
     return (
         <div>
-            <Navbar />
+            <Navbar  />
             <Routes>
+              <Route path='/Home' element={<Home/>}/>
               <Route path='/Contact' element={<Contact/>}/>
               <Route path='/GitHub' element={<GitHub/>}/>
               <Route path='/LinkedIn' element={<LinkedIn/>}/>
